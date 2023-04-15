@@ -34,3 +34,9 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim/lua/us
 ```shell
 nvim
 ```
+
+### Further setup
+
+In order to properly use Python, it is recommended to create a virtual environment specifically for nvim and 
+install pynvim into it.
+The python3 interpreter should then be provided in the `options.lua` file under `g` as `python3_host_prog`.
