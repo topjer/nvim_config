@@ -6,4 +6,9 @@ return {
     "nvim-tree/nvim-web-devicons",
     "MunifTanjim/nui.nvim"
   },
+  filesystem = {
+    hijack_netrw_behavior = "open_current"
+  },
+  config = function ()
+  end
 }
