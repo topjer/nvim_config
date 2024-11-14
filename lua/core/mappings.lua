@@ -15,6 +15,7 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 -- window related keys
 vim.keymap.set('n', '<leader>wh', '<C-w><C-v>', { desc = '[W]indow split [h]orizontal' })
 vim.keymap.set('n', '<leader>wq', '<cmd>q<CR>', { desc = '[W]indow [q]uit' })
+vim.keymap.set('n', '<leader>wc', '<cmd>bd<CR>', { desc = '[W]indow [c]lose buffer' })
 
 --vim.keymap.set('n', '<leader>w', '<C-w>', { desc = "Open [w]indow options"})
 vim.keymap.set('n', '<leader>to', '<cmd>bo term<CR>', { desc = '[T]erminal [o]pen' })
