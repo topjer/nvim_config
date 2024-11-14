@@ -12,4 +12,15 @@ vim.keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Move focus to the right win
 vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower window' })
 vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
 
+-- window related keys
+vim.keymap.set('n', '<leader>wh', '<C-w><C-v>', { desc = '[W]indow split [h]orizontal' })
+vim.keymap.set('n', '<leader>wq', '<cmd>q<CR>', { desc = '[W]indow [q]uit' })
+
 --vim.keymap.set('n', '<leader>w', '<C-w>', { desc = "Open [w]indow options"})
+vim.keymap.set('n', '<leader>to', '<cmd>bo term<CR>', { desc = '[T]erminal [o]pen' })
+vim.keymap.set('n', '<leader>tp', '<cmd>bo term python<CR>', { desc = '[T]erminal [P]ython' })
+vim.keymap.set('t', '<Esc>', '<C-\\><C-n>')
+--vim.keymap.set('t', '<C-w>', "<C-\\><C-n><C-w>")
+
+vim.keymap.set('n', '<A-j>', '<cmd>BufferLineCycleNext<CR>')
+vim.keymap.set('n', '<A-k>', '<cmd>BufferLineCyclePrev<CR>')
