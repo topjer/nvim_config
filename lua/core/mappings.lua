@@ -23,5 +23,5 @@ vim.keymap.set('n', '<leader>tp', '<cmd>bo term python<CR>', { desc = '[T]ermina
 vim.keymap.set('t', '<Esc>', '<C-\\><C-n>')
 --vim.keymap.set('t', '<C-w>', "<C-\\><C-n><C-w>")
 
-vim.keymap.set('n', '<A-j>', '<cmd>BufferLineCycleNext<CR>')
-vim.keymap.set('n', '<A-k>', '<cmd>BufferLineCyclePrev<CR>')
+vim.keymap.set('n', '<A-j>', '<cmd>BufferLineCyclePrev<CR>')
+vim.keymap.set('n', '<A-k>', '<cmd>BufferLineCycleNext<CR>')
