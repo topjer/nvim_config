@@ -4,16 +4,14 @@ return {
     version = "*",
     config = function ()
       require("toggleterm").setup()
-    end
-  },
-  --[[ {
-      local Terminal = require("toggleterm.termminal").Terminal
-      local python = Terminal:new({cmd = "python"})
+      local Terminal = require("toggleterm.terminal").Terminal
+      local python = Terminal:new({cmd = "python", direction="float"})
 
       function _python_toggle()
         python:toggle()
       end
 
-      vim.keymap.set('n', '<leader>tu', '<cmd>lua _python_toggle<CR>')
-  } ]]
+      vim.keymap.set('n', '<leader>tp', '<cmd>lua _python_toggle()<CR>', { desc = '[T]erminal [P]ython' })
+    end
+  }
 }
