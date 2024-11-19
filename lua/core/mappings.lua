@@ -2,7 +2,6 @@ vim.g.mapleader = " "
 --vim.keymap.set("n", "-", vim.cmd.Ex)
 vim.keymap.set("n", "<leader>d", '<Cmd>Neotree focus toggle right<CR>', {desc="Open File Explorer"})
 
-
 -- Keybinds to make split navigation easier.
 --  Use CTRL+<hjkl> to switch between windows
 --
@@ -19,7 +18,8 @@ vim.keymap.set('n', '<leader>wc', '<cmd>bd<CR>', { desc = '[W]indow [c]lose buff
 
 --vim.keymap.set('n', '<leader>w', '<C-w>', { desc = "Open [w]indow options"})
 vim.keymap.set('n', '<leader>tt', '<cmd>ToggleTerm direction=float<CR>', { desc = '[T]oggle [T]erminal' })
-vim.keymap.set('n', '<leader>tp', '<cmd>bo term python<CR>', { desc = '[T]erminal [P]ython' })
+vim.keymap.set('n', '<leader>ts', '<cmd>TermSelect<CR>', { desc = '[T]erminla [S]elect' })
+vim.keymap.set('n', '<leader>tp', '<cmd>2TermExec cmd="ipython"<CR>', { desc = '[T]erminal [P]ython' })
 vim.keymap.set('t', '<Esc>', '<C-\\><C-n>')
 --vim.keymap.set('t', '<C-w>', "<C-\\><C-n><C-w>")
 
