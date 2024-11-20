@@ -17,9 +17,6 @@ vim.keymap.set('n', '<leader>wq', '<cmd>q<CR>', { desc = '[W]indow [q]uit' })
 vim.keymap.set('n', '<leader>wc', '<cmd>bd<CR>', { desc = '[W]indow [c]lose buffer' })
 
 --vim.keymap.set('n', '<leader>w', '<C-w>', { desc = "Open [w]indow options"})
-vim.keymap.set('n', '<leader>tt', '<cmd>ToggleTerm direction=float<CR>', { desc = '[T]oggle [T]erminal' })
-vim.keymap.set('n', '<leader>ts', '<cmd>TermSelect<CR>', { desc = '[T]erminal [S]elect' })
-vim.keymap.set('n', '<leader>tl', '<cmd>TermExec cmd="cd %:h"<CR>', { desc = '[T]erminal [L]ocal' })
 vim.keymap.set('t', '<Esc>', '<C-\\><C-n>')
 --vim.keymap.set('t', '<C-w>', "<C-\\><C-n><C-w>")
 
