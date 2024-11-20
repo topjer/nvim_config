@@ -16,9 +16,7 @@ vim.keymap.set('n', '<leader>wh', '<C-w><C-v>', { desc = '[W]indow split [h]oriz
 vim.keymap.set('n', '<leader>wq', '<cmd>q<CR>', { desc = '[W]indow [q]uit' })
 vim.keymap.set('n', '<leader>wc', '<cmd>bd<CR>', { desc = '[W]indow [c]lose buffer' })
 
---vim.keymap.set('n', '<leader>w', '<C-w>', { desc = "Open [w]indow options"})
-vim.keymap.set('t', '<Esc>', '<C-\\><C-n>')
---vim.keymap.set('t', '<C-w>', "<C-\\><C-n><C-w>")
+vim.keymap.set('t', '<A-q>', '<C-\\><C-n><C-w>q')
 
 vim.keymap.set('n', '<A-j>', '<cmd>BufferLineCyclePrev<CR>')
 vim.keymap.set('n', '<A-k>', '<cmd>BufferLineCycleNext<CR>')
