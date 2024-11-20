@@ -21,6 +21,8 @@ return {
       vim.keymap.set('n', '<leader>to', '<cmd>lua _standard_toggle()<CR>', { desc = '[T]erminal [O]pen' })
       vim.keymap.set('n', '<leader>tl', '<cmd>TermExec cmd="cd %:h"<CR>', { desc = '[T]erminal [L]ocal' })
       vim.keymap.set('n', '<leader>ts', '<cmd>TermSelect<CR>', { desc = '[T]erminal [S]elect' })
+      vim.keymap.set('n', '<leader>tas', '<cmd>TermExec direction=float cmd="python solution.py" dir="%:h"<CR>', { desc = '[T]erminal [A]dvent of Code run [S]olution' })
+      vim.keymap.set('n', '<leader>tap', '<cmd>TermExec direction=float cmd="pytest -s solution.py" dir="%:h"<CR>', { desc = '[T]erminal [A]dvent of Code run [P]ytest' })
     end
   }
 }
