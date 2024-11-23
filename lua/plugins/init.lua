@@ -1,4 +1,5 @@
 return {
+  { "Shatur/neovim-session-manager" },
   {
     'echasnovski/mini.surround',
     version = '*',
