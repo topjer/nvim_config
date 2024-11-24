@@ -44,4 +44,5 @@ vim.opt.scrolloff = 10
 -- vim.g.loaded_netrwPlug = 1
 vim.opt.termguicolors = true
 
+
 vim.g.python3_host_prog = '/home/topjer/development/nvim_python/.venv/bin/python'

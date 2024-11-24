@@ -1,4 +1,6 @@
 return {
+  { "hrsh7th/cmp-nvim-lsp" },
+  { "Shatur/neovim-session-manager" },
   {
     'echasnovski/mini.surround',
     version = '*',
@@ -14,15 +16,16 @@ return {
     end
   },
   {
+    'nvim-treesitter/nvim-treesitter',
+    event = {"BufReadPre", "BufNewFile"},
+    build = ':TSUpdate',
+  },
+  {
     'folke/tokyonight.nvim',
     priority = 1000,
     init = function()
       vim.cmd.colorscheme 'tokyonight-night'
     end
-  },
-  {
-    'nvim-treesitter/nvim-treesitter',
-    -- run = ':TSUpdate'
   },
   {
     'numToStr/Comment.nvim',
