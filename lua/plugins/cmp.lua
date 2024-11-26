@@ -12,7 +12,6 @@ return {
     },
     "rafamadriz/friendly-snippets"
   },
-  
   config = function()
     local cmp = require("cmp")
     --local lspkind = require("lspkind")
