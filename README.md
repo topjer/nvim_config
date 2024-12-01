@@ -17,6 +17,7 @@ The following things need to be installed in order for this configuration to pro
 ## Complete List of plugins
 
 * [  'lazy.nvim' ]( https://github.com/folke/lazy.nvim.git ) - neovim plugin manager
+* ['folke/lazydev.nvim']( https://github.com/folke/lazydev.nvim.git ) - lua languageserver configuration
 * ['nvim-treesitter/nvim-treesitter']( https://github.com/nvim-treesitter/nvim-treesitter.git ) - syntax highlighting
 * ['echasnovski/mini.surround']( https://github.com/echasnovski/mini.surround.git ) - functionality to add / modify / remove surrounds like braces or quotes etc
 * ['echasnovski/mini.pairs']( https://github.com/echasnovski/mini.pairs.git ) - automatic closing for pairwise characters like braces or quotes
