@@ -10,6 +10,10 @@ return {
         buffers = {
           initial_mode = "normal"
           -- theme = "dropdown"
+        },
+        diagnostics = {
+          initial_mode = "normal",
+          theme = "dropdown"
         }
       }
     }
@@ -23,5 +27,6 @@ return {
     vim.keymap.set('n', '<leader>sg', builtin.live_grep, {desc = '[S]earch by [G]rep'})
     vim.keymap.set('n', '<leader>sb', builtin.buffers, {desc = '[S]earch [B]uffer'})
     vim.keymap.set('n', '<leader>sc', builtin.commands, {desc = '[S]earch [C]ommands'})
+    vim.keymap.set('n', '<leader>sd', builtin.diagnostics, {desc = '[S]earch [D]iagnostics'})
   end,
 }
